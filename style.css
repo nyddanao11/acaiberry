@@ -54,7 +54,7 @@ ul{
 #landing .benefits .contact{
 	justify-content: center;
 	padding: 5px;
-	border: 1px solid;
+	border: none;
 	background-color: #F3B906;
 }
 
