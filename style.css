@@ -1,8 +1,10 @@
 
 #landing{
 	display: flex;
+justify-content: center;
 	padding-left: 10px;
 	width: 100%;
+	position: absolute;
 }
 
 ul{
@@ -19,20 +21,24 @@ ul{
 }
 
 #landing .benefits{
+	display: flex;
 	flex-direction: column;
-
+	flex-wrap: wrap;
+	align-content:flex-start ;
+	width:50%;
+	position: relative;
 }
 
 #landing .benefits .buy{
 	justify-content: center;
-	padding-left: 40px;
-	padding-top: 10px;
+  padding-top: 10
 }
 
 .button:hover{
 			color:#818E81;
 			background-color: #79D479;
 }
+
 .button{
   background-color: #05981d;
   border: none;
@@ -53,20 +59,27 @@ ul{
 	background-color: #F3B906;
 }
 
-#landing .cont .container{
-	flex-direction: column;
+#landing .cont {
 	justify-content: space-evenly;
+	position: relative;
 	width: 100%;
 }
 
 img{
-	width: 400px;
+
+	width: 350px;
 	height: 550px;
 	padding-top: 30px;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 30px;
 	padding-bottom: 10px;
 }
 
+iframe{
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
 
 
